@@ -1,0 +1,33 @@
+{
+  "name": "testnodejs_azure",
+  "version": "1.0.0",
+  "description": "template for basic express+bootstrap app",
+  "main": "bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "bootstrap"
+  ],
+  "author": "Luca Maddalena",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-logger": "0.0.3",
+    "express3-handlebars": "^0.5.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmaddalena/BasicExpress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmaddalena/BasicExpress/issues"
+  },
+  "homepage": "https://github.com/lmaddalena/BasicExpress"
+}

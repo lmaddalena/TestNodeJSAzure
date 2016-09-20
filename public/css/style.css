@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+}
+
+.body-content {
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home-content {
+    text-align: left;
+}
