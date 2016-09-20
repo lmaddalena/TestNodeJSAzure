@@ -1,10 +1,10 @@
 {
   "name": "testnodejs_azure",
   "version": "1.0.0",
-  "description": "template for basic express+bootstrap app",
-  "main": "bin/www",
+  "description": "test deploying node.js on Azure",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,10 +24,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmaddalena/BasicExpress.git"
+    "url": "git+https://github.com/lmaddalena/TestNodeJSAzure.git"
   },
   "bugs": {
-    "url": "https://github.com/lmaddalena/BasicExpress/issues"
+    "url": "https://github.com/lmaddalena/TestNodeJSAzure/issues"
   },
-  "homepage": "https://github.com/lmaddalena/BasicExpress"
+  "homepage": "https://github.com/lmaddalena/TestNodeJSAzure"
 }

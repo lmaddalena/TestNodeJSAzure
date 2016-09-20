@@ -36,7 +36,7 @@ switch(app.get('env')){
     case 'production':
         app.use(require('express-logger')({
             path: __dirname + '/log/request.log'
-        }))
+        }));
         break;
 };
 
