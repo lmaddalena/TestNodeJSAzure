@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var app = require('./app');
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 1337);
 
 
 
